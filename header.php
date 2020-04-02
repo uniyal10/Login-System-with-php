@@ -7,7 +7,7 @@
 	<header>
 		<nav>
 			<a href="#">
-				<img src="./img/logo.jjpg">
+				<img src="./img/logo.jpg">
 			</a>
 			<ul>
 				<li><a href="index.php">Home</a></li>
