@@ -20,10 +20,10 @@ if (isset($_POST['login-submit'])) {
     		exit();
     	}
     	else{
-    		mysqli_stmt_param($stmt,"ss",$mailuid,$mailuid);
+    		mysqli_stmt_bind_param($stmt,"ss",$mailuid,$mailuid);
     		mysqli_stmt_execute($stmt);
     		$result = mysqli_stmt_get_result($stmt);
-    		if ($row = mysqli_fetch_assac()) {
+    		if ($row = mysqli_fetch_assoc($result)) {
     			# code...
     			$pwdCheck = password_verify($password,$row['password']);
     			if ($pwdCheck == false) {

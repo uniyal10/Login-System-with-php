@@ -9,9 +9,9 @@
 
             <?php 
 
-               if (isset($_POST['username'])) {
+               if (isset($_SESSION['username'])) {
                	# code...
-               	echo '<p class="login-status">	You are logged in </p>';
+               	echo '<p class="login-status">	You are logged in</p>';
                }
                else{
                echo	'<p class="login-status">You are logged out</p>';
