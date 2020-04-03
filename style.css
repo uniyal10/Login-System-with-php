@@ -1,0 +1,74 @@
+*{
+	margin: 0px;
+	font-family: century gothic;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+	padding: 0px 10px;
+	color: #000;
+}
+button{
+	padding: 5px 10px;
+	background-color: #000;
+	color: #fff;
+	border: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: relative;
+	outline: none;
+	width: 100px;
+}
+button:hover{
+	cursor: pointer;
+	color: #000;
+	background-color: #fff;
+	transition: 0.3s ease;
+}
+button:active{
+	top:2px;
+}
+nav{
+   display: flex;
+}
+#logo img{
+	height: 100px;
+	width: 200px;
+}
+nav ul{
+	display: flex;
+	list-style-type: none;
+	padding: 10px;
+	align-self: center;
+	 
+    
+}
+ #form {
+ 	display: flex;
+ 	padding: 10px;
+ 	
+ 	 align-self: center;
+
+
+ }
+ 
+ .wrapper-main{
+ 	text-align: center;
+ 	width: 20%;
+ 	margin: auto;
+ 	}
+ .wrapper-main form{
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ }
+ .wrapper-main form input{
+ 	margin: 10px 0px;
+ 	padding: 10px;
+ 	border-radius: 1px;
+ 	outline: none;
+ }
+ .wrapper-main form button{
+      margin: auto;
+ }
